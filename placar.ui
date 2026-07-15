@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Placar</class>
+ <widget class="QDialog" name="Placar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Placar</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qlineargradient(
+    x1:0, y1:0, x2:0, y2:1,
+    stop:0   #1a0a2e,
+    stop:0.5 #0d0d22,
+    stop:1   #0a1a2e
+);</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>741</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="tabelaPlacar">
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>122</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Jogador 1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Jogador 2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Vencedor</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Pontos J1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Pontos J2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Data</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="fecharButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 20px;
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(155, 55, 135, 220),
+        stop:1 rgba(205, 90, 170, 220)
+    );
+    border: 1px solid rgba(220, 120, 200, 140);
+    color: #fde8f8;
+}
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(175, 70, 155, 255),
+        stop:1 rgba(225, 110, 190, 255)
+    );
+    border-color: rgba(240, 150, 220, 200);
+}
+QPushButton:pressed {
+    background: rgba(130, 45, 115, 240);
+}</string>
+      </property>
+      <property name="text">
+       <string>fechar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

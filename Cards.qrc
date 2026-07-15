@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>cards/verso_normal.png</file>
+        <file>cards/background.png</file>
+        <file>cards/verso_armadilha_bomba.png</file>
+        <file>cards/verso_bonus_estrela.png</file>
+        <file>cards/frente_1.png</file>
+        <file>cards/frente_2.png</file>
+        <file>cards/frente_3.png</file>
+        <file>cards/frente_4.png</file>
+        <file>cards/frente_5.png</file>
+        <file>cards/frente_6.png</file>
+        <file>cards/frente_7.png</file>
+        <file>cards/frente_8.png</file>
+        <file>cards/frente_9.png</file>
+        <file>cards/menu_background.jpeg</file>
+        <file>cards/vitoria.png</file>
+    </qresource>
+</RCC>

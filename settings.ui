@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Settings</class>
+ <widget class="QDialog" name="Settings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>884</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qlineargradient(
+    x1:0, y1:0, x2:0, y2:1,
+    stop:0   #1a0a2e,
+    stop:0.5 #0d0d22,
+    stop:1   #0a1a2e
+);</string>
+  </property>
+  <layout class="QVBoxLayout" name="rootLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>40</number>
+   </property>
+   <property name="topMargin">
+    <number>20</number>
+   </property>
+   <property name="rightMargin">
+    <number>40</number>
+   </property>
+   <property name="bottomMargin">
+    <number>20</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="titulo">
+     <property name="styleSheet">
+      <string notr="true">font: 70pt &quot;American Years PERSONAL USE&quot;;
+color: #e8a0c8;
+background: transparent</string>
+     </property>
+     <property name="text">
+      <string>Settings</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>8</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="audioTituo">
+       <property name="styleSheet">
+        <string notr="true">font: 40pt &quot;Yellow Rabbit - Personal Use&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Áudio ----------------------------------------------------------------</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;URW Gothic [UKWN]&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>Música de Fundo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="musicaDeFundoComboBox">
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+    background: rgba(255, 255, 255, 13);
+    border: 1px solid rgba(200, 160, 255, 50);
+    border-radius: 4px;
+    color: rgba(220, 200, 255, 200);
+    padding: 6px 10px;
+    font: 600 oblique 10pt &quot;URW Gothic [UKWN]&quot;;
+}
+QComboBox:hover {
+    border-color: rgba(200, 160, 255, 120);
+}
+QComboBox::drop-down {
+    border: none;
+}
+QComboBox QAbstractItemView {
+    background: #1a0a2e;
+    border: 1px solid rgba(200, 160, 255, 80);
+    color: rgba(220, 200, 255, 200);
+    selection-background-color: rgba(180, 80, 160, 80);
+}</string>
+         </property>
+         <property name="currentText">
+          <string>Butterflies by Tsundere Twintails</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Butterflies by Tsundere Twintails</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Demo Booth by Xploshi</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Dire, Dire Docks - Super Mario 64 SoundTrack</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Donkey Kong Country - Aquatic Ambience</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hoogway - A Place I Love</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>keep ahold of my eyes by overscorn</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LEASE by Takeshi Abo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Submarine Theme by ConcernedApe</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sweet Candy Coasty by SupaBubba</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Tomorrow's Problems, Today by esselfortium</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ufo shopping by tomcbumpz</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Wii Party Soundtrack - Main Menu Music</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;URW Gothic [UKWN]&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>Volume da Música</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="horizontalSliderSong">
+         <property name="styleSheet">
+          <string notr="true">QSlider::groove:horizontal {
+    height: 4px;
+    background: rgba(200, 160, 255, 40);
+    border-radius: 2px;
+}
+QSlider::sub-page:horizontal {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #9060c0,
+        stop:1 #e8a0c8
+    );
+    border-radius: 2px;
+}
+QSlider::handle:horizontal {
+    width: 13px;
+    height: 13px;
+    margin: -5px 0;
+    border-radius: 6px;
+    background: #e8a0c8;
+}</string>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="sliderPosition">
+          <number>50</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;URW Gothic [UKWN]&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>Volume dos Efeitos</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="horizontalSliderEffects">
+         <property name="styleSheet">
+          <string notr="true">QSlider::groove:horizontal {
+    height: 4px;
+    background: rgba(200, 160, 255, 40);
+    border-radius: 2px;
+}
+QSlider::sub-page:horizontal {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #9060c0,
+        stop:1 #e8a0c8
+    );
+    border-radius: 2px;
+}
+QSlider::handle:horizontal {
+    width: 13px;
+    height: 13px;
+    margin: -5px 0;
+    border-radius: 6px;
+    background: #e8a0c8;
+}</string>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="sliderPosition">
+          <number>50</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;URW Gothic [UKWN]&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>Mutar Tudo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="muteButton">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background: rgba(255, 255, 255, 10);
+    border: 1px solid rgba(200, 160, 255, 50);
+    border-radius: 4px;
+    color: rgba(200, 180, 220, 120);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 7px 0px;
+}
+QPushButton:checked {
+    background: rgba(180, 80, 160, 80);
+    border-color: rgba(220, 120, 200, 130);
+    color: #f0c0e0;
+}
+QPushButton:hover {
+    border-color: rgba(200, 160, 255, 120);
+}</string>
+         </property>
+         <property name="text">
+          <string>OFF</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>12</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>8</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="audioTituo_2">
+       <property name="styleSheet">
+        <string notr="true">font: 40pt &quot;Yellow Rabbit - Personal Use&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Partida --------------------------------------------------------------</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;URW Gothic [UKWN]&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>Jogador 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditJogador1">
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background: rgba(255, 255, 255, 13);
+    border: 1px solid rgba(200, 160, 255, 50);
+    border-radius: 4px;
+    color: rgba(220, 200, 255, 200);
+    padding: 6px 10px;
+    font-size: 12px;
+}
+QLineEdit:focus {
+    border-color: rgba(200, 160, 255, 150);
+}</string>
+         </property>
+         <property name="text">
+          <string>Jogador 1</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;URW Gothic [UKWN]&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>Jogador 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditJogador2">
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background: rgba(255, 255, 255, 13);
+    border: 1px solid rgba(200, 160, 255, 50);
+    border-radius: 4px;
+    color: rgba(220, 200, 255, 200);
+    padding: 6px 10px;
+    font-size: 12px;
+}
+QLineEdit:focus {
+    border-color: rgba(200, 160, 255, 150);
+}</string>
+         </property>
+         <property name="text">
+          <string>Jogador 2</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>16</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <property name="spacing">
+      <number>10</number>
+     </property>
+     <item>
+      <spacer name="buttonSpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnCancelar">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 20px;
+    min-width: 110px;
+    min-height: 34px;
+    background: transparent;
+    border: 1px solid rgba(200, 160, 255, 65);
+    color: rgba(200, 175, 235, 170);
+}
+QPushButton:hover {
+    background: rgba(200, 160, 255, 15);
+    border-color: rgba(200, 160, 255, 130);
+    color: rgba(225, 205, 255, 230);
+}
+QPushButton:pressed {
+    background: rgba(200, 160, 255, 8);
+}</string>
+       </property>
+       <property name="text">
+        <string>Restaurar Padrão</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnSalvar">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 20px;
+    min-width: 110px;
+    min-height: 34px;
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(155, 55, 135, 220),
+        stop:1 rgba(205, 90, 170, 220)
+    );
+    border: 1px solid rgba(220, 120, 200, 140);
+    color: #fde8f8;
+}
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(175, 70, 155, 255),
+        stop:1 rgba(225, 110, 190, 255)
+    );
+    border-color: rgba(240, 150, 220, 200);
+}
+QPushButton:pressed {
+    background: rgba(130, 45, 115, 240);
+}</string>
+       </property>
+       <property name="text">
+        <string>Salvar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>sounds/fairy dust.mp3</file>
+        <file>sounds/pop.mp3</file>
+        <file>sounds/powerup.mp3</file>
+        <file>sounds/small explotion.mp3</file>
+    </qresource>
+</RCC>

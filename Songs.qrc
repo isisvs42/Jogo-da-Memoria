@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/songs">
+        <file>songs/Butterflies by Tsundere Twintails.mp3</file>
+        <file>songs/Demo Booth by Xploshi.mp3</file>
+        <file>songs/Dire, Dire Docks - Super Mario 64 SoundTrack.mp3</file>
+        <file>songs/keep ahold of my eyes by overscorn.mp3</file>
+        <file>songs/LEASE by Takeshi Abo.mp3</file>
+        <file>songs/Submarine Theme by ConcernedApe.mp3</file>
+        <file>songs/Sweet Candy Coasty by SupaBubba.mp3</file>
+        <file>songs/ufo shopping by tomcbumpz.mp3</file>
+        <file>songs/Wii Party Soundtrack - Main Menu Music.mp3</file>
+        <file>songs/Tomorrow's Problems, Today by esselfortium.mp3</file>
+        <file>songs/Donkey Kong Country - Aquatic Ambience.mp3</file>
+        <file>songs/Hoogway - A Place I Love.mp3</file>
+    </qresource>
+</RCC>

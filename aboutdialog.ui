@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sobre</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qlineargradient(
+    x1:0, y1:0, x2:0, y2:1,
+    stop:0   #1a0a2e,
+    stop:0.5 #0d0d22,
+    stop:1   #0a1a2e
+);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="fotoLabel">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::Box</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="nomeLabel">
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;URW Gothic [UKWN]&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Olá! Meu nome é Ísis Valois e sou estudante de programação.
+Este jogo da memória foi desenvolvido por
+mim utilizando C++ e o Qt Creator como parte
+dos meus estudos e para praticar conceitos de
+desenvolvimento de software e interfaces gráficas.
+Espero que você se divirta jogando e obrigada
+por experimentar meu projeto!</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="fecharButton">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 20px;
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(155, 55, 135, 220),
+        stop:1 rgba(205, 90, 170, 220)
+    );
+    border: 1px solid rgba(220, 120, 200, 140);
+    color: #fde8f8;
+}
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(175, 70, 155, 255),
+        stop:1 rgba(225, 110, 190, 255)
+    );
+    border-color: rgba(240, 150, 220, 200);
+}
+QPushButton:pressed {
+    background: rgba(130, 45, 115, 240);
+}</string>
+     </property>
+     <property name="text">
+      <string>Fechar</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

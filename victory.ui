@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Victory</class>
+ <widget class="QDialog" name="Victory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Fim de Jogo</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/img/cards/vitoria.png);</string>
+  </property>
+  <widget class="QLabel" name="titulo">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>20</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 40pt &quot;American Years PERSONAL USE&quot;;
+color: #e8a0c8;
+background: transparent</string>
+   </property>
+   <property name="text">
+    <string>Fim de Jogo</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>110</y>
+     <width>421</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Yellow Rabbit - Personal Use&quot;;
+color: rgb(255, 164, 227);
+background: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Jogador N ganhou! Parabéns, Jogador N!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>260</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 20px;
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(155, 55, 135, 220),
+        stop:1 rgba(205, 90, 170, 220)
+    );
+    border: 1px solid rgba(220, 120, 200, 140);
+    color: #fde8f8;
+}
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(175, 70, 155, 255),
+        stop:1 rgba(225, 110, 190, 255)
+    );
+    border-color: rgba(240, 150, 220, 200);
+}
+QPushButton:pressed {
+    background: rgba(130, 45, 115, 240);
+}</string>
+   </property>
+   <property name="text">
+    <string>voltar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
