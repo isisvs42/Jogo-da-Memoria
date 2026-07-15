@@ -1,0 +1,30 @@
+name: Build Windows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '6.7.*'
+          arch: 'win64_mingw'
+          modules: 'qtmultimedia'
+
+      - name: Compilar
+        run: |
+          qmake CONFIG+=release MemoryGame.pro
+          mingw32-make
+
+      - name: Empacotar DLLs necessárias
+        run: windeployqt release\MemoryGame.exe
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MemoryGame-Windows
+          path: release
