@@ -12,9 +12,9 @@ jobs:
       - name: Instalar Qt
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.7.*'
-          arch: 'win64_mingw'
-          modules: 'qtmultimedia'
+            version: '6.7.2'
+            arch: 'win64_mingw'
+            modules: 'qtmultimedia'
 
       - name: Compilar
         run: |
