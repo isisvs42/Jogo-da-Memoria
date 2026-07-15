@@ -1,14 +1,13 @@
-QT += core gui widgets multimedia network sql
+#QT       += core gui
+QT += core gui widgets multimedia sql
 
-CONFIG += qt warn_on release
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 CONFIG += c++17
-
-TARGET = MemoryGame
-TEMPLATE = app
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
-#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000
+#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
     aboutdialog.cpp \
@@ -57,3 +56,6 @@ RESOURCES += \
     Foto.qrc \
     Songs.qrc \
     Sounds.qrc
+
+# Ensure MinGW startup libs are linked on Windows/MinGW to resolve __imp___argc
+win32:LIBS += -lmingw32 -lmingwex
