@@ -13,11 +13,14 @@ jobs:
       - name: Baixar o código
         uses: actions/checkout@v4
 
+      - name: Configurar ambiente MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+
       - name: Instalar Qt
         uses: jurplel/install-qt-action@v4
         with:
           version: "6.8.2"
-          arch: "win64_mingw"
+          arch: "win64_msvc2022_64"
           modules: qtmultimedia
           cache: true
 
@@ -25,7 +28,7 @@ jobs:
         shell: cmd
         run: |
           qmake -v
-          g++ --version
+          cl
 
       - name: Gerar Makefile
         shell: cmd
@@ -35,7 +38,7 @@ jobs:
       - name: Compilar
         shell: cmd
         run: |
-          mingw32-make -j2
+          nmake
 
       - name: Copiar DLLs do Qt
         shell: cmd
