@@ -56,6 +56,3 @@ RESOURCES += \
     Foto.qrc \
     Songs.qrc \
     Sounds.qrc
-
-# Ensure MinGW startup libs are linked on Windows/MinGW to resolve __imp___argc
-#win32:LIBS += -lmingw32 -lmingwex

@@ -122,16 +122,6 @@ QComboBox QAbstractItemView {
          </item>
          <item>
           <property name="text">
-           <string>Dire, Dire Docks - Super Mario 64 SoundTrack</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Donkey Kong Country - Aquatic Ambience</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
            <string>Hoogway - A Place I Love</string>
           </property>
          </item>
@@ -147,11 +137,6 @@ QComboBox QAbstractItemView {
          </item>
          <item>
           <property name="text">
-           <string>Submarine Theme by ConcernedApe</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
            <string>Sweet Candy Coasty by SupaBubba</string>
           </property>
          </item>
@@ -163,11 +148,6 @@ QComboBox QAbstractItemView {
          <item>
           <property name="text">
            <string>ufo shopping by tomcbumpz</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Wii Party Soundtrack - Main Menu Music</string>
           </property>
          </item>
         </widget>
