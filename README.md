@@ -85,11 +85,21 @@ Encontre os pares de cartas iguais virando duas cartas por vez. Fique atento: al
 
 ## 🎵 Créditos de áudio
 
-As trilhas sonoras e efeitos sonoros utilizados são de fontes de uso livre/royalty-free. *(Recomenda-se listar aqui os créditos específicos de cada faixa/efeito mantido no projeto, para documentar a origem e a licença de uso.)*
+As trilhas sonoras (`songs/`) utilizadas neste projeto são de artistas independentes. Os créditos de cada faixa estão listados abaixo, com link para o áudio original no YouTube.
+
+| Arquivo em `songs/` | Faixa | Artista | Ouvir no YouTube |
+|---|---|---|---|
+| `Butterflies by Tsundere Twintails.mp3` | Butterflies | Tsundere Twintails | [link](https://www.youtube.com/watch?v=11dAGSfNvMI) |
+| `Demo Booth by Xploshi.mp3` | Demo Booth | Xploshi | [link](https://www.youtube.com/watch?v=yi9xkK8rZl8) |
+| `keep ahold of my eyes by overscorn.mp3` | keep ahold of my eyes | overscorn | [link](https://www.youtube.com/watch?v=LVTjq-mVoGU) |
+| `LEASE by Takeshi Abo.mp3` | LEASE | Takeshi Abo | [link](https://www.youtube.com/watch?v=tjlvmb8SGEs) |
+| `Sweet Sandy Coasty by SupaBubba.mp3` | Sweet Sandy Coast | SupaBubba | [link](https://www.youtube.com/watch?v=PKMyQxYh5Ug) |
+| `ufo shopping by tomcbumpz.mp3` | ufo shopping | tomcbumpz | [link (álbum)](https://www.youtube.com/playlist?list=OLAK5uy_mHvxRRvPTFoZMjzdq8LgWL336GG8Du5F8) |
+| `Tomorrow's Problems, Today by esselfortium.mp3` | Tomorrow's Problems, Today | esselfortium | [link](https://www.youtube.com/watch?v=NwamPstNzm4) |
+| `Hoogway - A Place I Love.mp3` | A Place I Love | Hoogway | [link](https://www.youtube.com/watch?v=Qk11o0sS8p8) |
 
 ---
 
 ## 👩‍💻 Autora
 
 Desenvolvido por **[Ísis](https://github.com/isisvs42)**.
-
