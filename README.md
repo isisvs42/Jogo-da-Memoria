@@ -94,7 +94,7 @@ As trilhas sonoras (`songs/`) utilizadas neste projeto são de artistas independ
 | `keep ahold of my eyes by overscorn.mp3` | keep ahold of my eyes | overscorn | [link](https://www.youtube.com/watch?v=LVTjq-mVoGU) |
 | `LEASE by Takeshi Abo.mp3` | LEASE | Takeshi Abo | [link](https://www.youtube.com/watch?v=tjlvmb8SGEs) |
 | `Sweet Sandy Coasty by SupaBubba.mp3` | Sweet Sandy Coast | SupaBubba | [link](https://www.youtube.com/watch?v=PKMyQxYh5Ug) |
-| `ufo shopping by tomcbumpz.mp3` | ufo shopping | tomcbumpz | [link (álbum)](https://www.youtube.com/playlist?list=OLAK5uy_mHvxRRvPTFoZMjzdq8LgWL336GG8Du5F8) |
+| `ufo shopping by tomcbumpz.mp3` | ufo shopping | tomcbumpz | [link](https://youtu.be/vwM4UUCOW70?si=6LU2oqdoK3oLgJpf) |
 | `Tomorrow's Problems, Today by esselfortium.mp3` | Tomorrow's Problems, Today | esselfortium | [link](https://www.youtube.com/watch?v=NwamPstNzm4) |
 | `Hoogway - A Place I Love.mp3` | A Place I Love | Hoogway | [link](https://www.youtube.com/watch?v=Qk11o0sS8p8) |
 
