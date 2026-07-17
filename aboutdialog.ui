@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>360</width>
+    <width>410</width>
     <height>340</height>
    </rect>
   </property>
@@ -53,11 +53,10 @@ background: transparent;</string>
      </property>
      <property name="text">
       <string>Olá! Meu nome é Ísis Valois e sou estudante de programação.
-Este jogo da memória foi desenvolvido por
-mim utilizando C++ e o Qt Creator como parte
-dos meus estudos e para praticar conceitos de
-desenvolvimento de software e interfaces gráficas.
-Espero que você se divirta jogando e obrigada
+Este jogo da memória foi desenvolvido por mim utilizando C++
+e o Qt Creator como parte dos meus estudos e para praticar
+conceitos de desenvolvimento de software e interfaces
+gráficas. Espero que você se divirta jogando e obrigada
 por experimentar meu projeto!</string>
      </property>
     </widget>
